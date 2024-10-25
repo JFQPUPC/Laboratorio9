@@ -36,6 +36,11 @@ nav a:hover{
     line-height: 1.6;
 }
 
+.contenedor img{
+    height: 300px;
+    width: 250px;
+}
+
 footer{
     background-color: 255, 151, 64;
     color: black;
