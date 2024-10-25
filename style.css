@@ -51,12 +51,20 @@ nav a:hover {
     line-height: 1.6;
 }
 
+
 .contenedor img {
     height: 250px;
     width: 250px;
     border-radius: 10px;
     margin-top: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.contenedor img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen al pasar el ratón */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Sombra adicional */
+}
+
 
 
 footer {
