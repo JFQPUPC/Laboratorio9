@@ -1,51 +1,70 @@
-header{
-    background-color: white;
-    padding: 15px;
+
+header {
+    background-color: #FFFFFF;
+    padding: 20px;
     text-align: center;
-    color: black;
+    color: #333333;
+    border-bottom: 3px solid #FF973F;
 }
 
-nav a{
+
+nav {
     text-align: center;
-    color: 255, 151, 64;
+    padding: 10px 0;
+    background-color: #FF973F;
+}
+
+nav a {
+    color: #FFFFFF;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
 }
 
-nav a:hover{
-    color: aliceblue;
+nav a:hover {
+    color: #FFD700;
 }
 
-.contenedor{
-    width: 81%;
-    margin: 21px;
-    padding: 10px;
-    background-color: 255, 151, 64;
+
+.contenedor {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FF973F;
     border-radius: 15px;
-    box-shadow: 0 0 10px black;
+    color: #FFFFFF;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.contenedor h2{
-    color: 255, 151, 64;
+.contenedor h2 {
+    color: #FFFFFF;
+    font-size: 24px;
 }
 
-.contenedor p{
-    color: 255, 151, 64;
+.contenedor p {
+    color: #FFFFFF;
     font-size: 16px;
     line-height: 1.6;
 }
 
-.contenedor img{
-    height: 300px;
+.contenedor img {
+    height: 250px;
     width: 250px;
+    border-radius: 10px;
+    margin-top: 10px;
 }
 
-footer{
-    background-color: 255, 151, 64;
-    color: black;
+
+footer {
+    background-color: #FF973F;
+    color: #FFFFFF;
     text-align: center;
-    padding: 10px;
-    margin-top: 10px;
-    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 0 0 10px 10px;
+    font-size: 14px;
 }
