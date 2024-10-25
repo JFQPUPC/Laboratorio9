@@ -1,0 +1,46 @@
+header{
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    color: black;
+}
+
+nav a{
+    text-align: center;
+    color: 255, 151, 64;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: aliceblue;
+}
+
+.contenedor{
+    width: 81%;
+    margin: 21px;
+    padding: 10px;
+    background-color: 255, 151, 64;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+}
+
+.contenedor h2{
+    color: 255, 151, 64;
+}
+
+.contenedor p{
+    color: 255, 151, 64;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+footer{
+    background-color: 255, 151, 64;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
